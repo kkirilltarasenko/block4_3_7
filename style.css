@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 50px;
+}
+
+.box {
+    width: 461px;
+    height: 563px;
+
+    background-color: #C4C4C4;
+}
+
+.searchInput {
+    width: 360px;
+    height: 61px;
+    display: block;
+
+    margin: 42px auto 0;
+
+    background-color: white;
+    color: black;
+    font-size: 34px;
+
+    border: none;
+}
+
+.repositoryBox {
+    width: 364px;
+    height: 31px;
+
+    font-size: 20px;
+
+    margin: 0 auto;
+    background-color: #E3E3E3;
+    border: 1px solid black;
+
+    transition: background .3s ease;
+    cursor: pointer;
+}
+
+.repositoryBox:hover {
+    background-color: #65CDF9;
+}
+
+.pinnedRepositoryBox {
+    width: 365px;
+    height: 71px;
+    padding: 5px;
+
+    margin: 10px auto 0;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    background-color: #bfa4fb;
+
+    position: relative;
+}
+
+.pinnedRepositoryBox__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cross {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+
+    right: 0;
+    z-index: 1;
+
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.errorBox {
+    width: 364px;
+    height: 41px;
+    margin: 10px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f89a9a;
+    color: #900000;
+}
