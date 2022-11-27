@@ -50,6 +50,14 @@
     background-color: #65CDF9;
 }
 
+.pinnedRepositoriesBox {
+    width: 385px;
+    max-height: 233px;
+
+    margin: 15px auto 0;
+    overflow-y: auto;
+}
+
 .pinnedRepositoryBox {
     width: 365px;
     height: 71px;

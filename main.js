@@ -13,6 +13,8 @@ class App {
         this.pinnedRepositories = document.createElement('div');
         this.error = document.createElement('div');
 
+        this.pinnedRepositories.classList.add('pinnedRepositoriesBox')
+
         this.app.appendChild(this.box);
         this.box.appendChild(this.searchInput);
         this.box.appendChild(this.error);
